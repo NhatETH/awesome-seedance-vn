@@ -33,7 +33,7 @@ Subtle ambient hum sound, very low frequency. Almost no other sound. NO music. N
 
 | Setting | Value |
 |---------|-------|
-| Platform | Higgsfield (best for loops) |
+| Platform | 0ai.vn hoặc Jimeng |
 | Aspect Ratio | 1:1 square (best for IG feed + carousel) |
 | Resolution | 1080p Standard (worth it for macro detail) |
 | FPS | 24 |

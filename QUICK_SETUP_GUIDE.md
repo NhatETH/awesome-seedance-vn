@@ -18,26 +18,16 @@ Bạn cần:
 
 ### Bước 1 — Customize repo (10 phút)
 
-Mở repo trong VS Code. Tìm và replace các placeholder sau:
-
-| Placeholder | Replace với |
-|-------------|------------|
-| `YOUR_USERNAME` | GitHub username của bạn |
-| `your_handle` | X (Twitter) handle của bạn |
-| `@your_handle` | @ + Twitter handle |
-| `your-domain.com` | Domain email của bạn |
-| `YOUR_DISCORD_LINK` | Discord invite link (tạo sau) |
+Mở repo trong VS Code. Repo đã được customize sẵn cho `@0ailab` — chỉ cần thay GitHub username nếu khác.
 
 **Cách làm trong VS Code:**
 1. Cmd/Ctrl + Shift + F (Find in Files)
-2. Tìm `YOUR_USERNAME` → Replace All với username
-3. Lặp lại với các placeholder khác
+2. Tìm `NhatETH` → Replace All với GitHub username của bạn (nếu khác)
 
 **Files cần check kỹ:**
-- `README.md` (file quan trọng nhất)
+- `README.md`
 - `README.en.md`
 - `CONTRIBUTING.md`
-- `CODE_OF_CONDUCT.md`
 - `community/showcase.md`
 
 ---
@@ -45,10 +35,10 @@ Mở repo trong VS Code. Tìm và replace các placeholder sau:
 ### Bước 2 — Tạo GitHub Repo (5 phút)
 
 1. Vào [github.com/new](https://github.com/new)
-2. Repository name: `awesome-seedance-vn` (hoặc tên bạn thích)
+2. Repository name: `awesome-seedance-vn`
 3. Description: `🎬 Awesome Seedance 2.0 + GPT Image 2 — Vietnamese-English bilingual resource`
 4. Public ✅
-5. **KHÔNG** check "Add README" / "Add .gitignore" / "Add license" (đã có sẵn)
+5. **KHÔNG** check "Add README" / "Add .gitignore" / "Add license"
 6. Create repository
 
 ---
@@ -61,9 +51,9 @@ Mở terminal trong thư mục `github_repo/`:
 cd /path/to/github_repo
 git init
 git add .
-git commit -m "Initial launch — bilingual VN/EN, 12 prompts, 5 guides, full structure"
+git commit -m "Initial launch — bilingual VN/EN, prompts library, guides"
 git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/awesome-seedance-vn.git
+git remote add origin https://github.com/NhatETH/awesome-seedance-vn.git
 git push -u origin main
 ```
 
@@ -75,51 +65,21 @@ Vào GitHub → Repo settings:
 
 #### About (cột phải README)
 - **Description:** `🎬 Vietnamese-English bilingual resource for Seedance 2.0 + GPT Image 2 (2026 trends)`
-- **Website:** (link Discord hoặc landing page)
-- **Topics:** `seedance` `seedance-2` `gpt-image-2` `ai-video` `vietnamese` `prompts` `storyboard-grid` `awesome-list` `bytedance` `openai`
+- **Website:** https://x.com/0ailab
+- **Topics:** `seedance` `seedance-2` `gpt-image-2` `ai-video` `vietnamese` `prompts` `storyboard-grid` `awesome-list`
 
 #### Settings → General
 - ✅ **Allow squash merging**
 - ✅ **Allow rebase merging**
 - ❌ Disable "Allow merge commits" (cleaner history)
 
-#### Settings → Pages (optional but recommended)
-- Source: Deploy from branch
-- Branch: `main` / Folder: `/ (root)`
-- Theme: Slate / Cayman (pick one)
-- Custom domain (later)
-
-#### Settings → Branches
-- Default branch: `main`
-- Add branch protection rule for `main`:
-  - Require pull request before merging
-  - Require 1 approval (optional, when you have collaborators)
-
----
-
-### Bước 5 — Tạo Discord (5 phút)
-
-1. Vào [discord.com/new](https://discord.com/) (cần app desktop)
-2. Tạo server với template "Project / Friends"
-3. Đổi tên: `Awesome Seedance VN`
-4. Tạo channels:
-   - `#welcome` — read only, intro rules
-   - `#announcements` — read only, your updates
-   - `#general-discussion` — chat tự do
-   - `#prompt-sharing` — share prompts community
-   - `#help` — Q&A
-   - `#showcase` — share works
-   - `#contributors` — for active contributors
-   - `#pricing-strategy` — VN business talk
-5. Generate **never-expire invite link** → paste vào README.md
-
 ---
 
 ## 🎉 Đã xong! Giờ làm gì tiếp?
 
 ### Ngày 1 (hôm nay)
-- [ ] Tạo X account `@SeedanceVN` (hoặc tên bạn)
-- [ ] Post launch tweet thread (xem template bên dưới)
+- [ ] Post launch tweet thread trên [@0ailab](https://x.com/0ailab)
+- [ ] Share repo trong cộng đồng Zalo: [Tham gia](https://zalo.me/g/caqqva644)
 - [ ] Add 3 prompts còn thiếu cho 50 prompts MVP
 
 ### Tuần 1
@@ -134,27 +94,29 @@ Vào GitHub → Repo settings:
 
 ## 📝 Launch Tweet Thread Template
 
-Copy paste, customize, post:
+Copy paste, customize, post từ [@0ailab](https://x.com/0ailab):
 
 ```
 🚀 LAUNCHING: Awesome Seedance VN
 
-The first comprehensive Vietnamese-English resource for AI video creation with Seedance 2.0 + GPT Image 2.
+Cộng đồng AI video tiếng Việt đầu tiên về Seedance 2.0 + GPT Image 2.
 
-What's inside 🧵👇
+Tất cả tài liệu mình đã build & test trong 6 tháng qua.
+Mở source code, miễn phí cho cộng đồng.
 
+🧵👇
 [1/10]
 ```
 
 ```
-[2/10] 50+ ready-to-use prompts:
-🛍️ Affiliate / TikTok
-🎭 Drama short
-📺 TVC sản phẩm
-🎵 Music Video
-🌏 Documentary
+[2/10] Có gì trong repo?
+🛍️ Affiliate / TikTok prompts
+🎭 Drama short prompts
+📺 TVC sản phẩm prompts
+🎵 Music Video prompts
+🌏 Documentary prompts
 
-All tested. All bilingual VN+EN.
+Tất cả đã test. Tất cả song ngữ VN+EN.
 ```
 
 ```
@@ -169,20 +131,21 @@ View potential: 100K-2M+ per clip
 ```
 
 ```
-[4/10] 8 deep-dive guides covering:
+[4/10] Deep-dive guides về:
 - 3-Layer Motion Prompt (NEW 2026 standard)
 - Storyboard Grid Method (save 70% credits)
 - Scene Archetype Router
-- Vietnam market pricing (exclusive data!)
+- Bảng giá thị trường VN (data thật!)
 ```
 
 ```
-[5/10] Why Vietnamese-focused?
+[5/10] Tại sao tập trung VN?
 
-While EN resources for Seedance are abundant, VN community is underserved. We localize everything:
-- VN cultural references (áo dài, Hội An, Saigon)
-- VN market pricing (real data from 15+ agencies)
-- VN deepfake law compliance
+Tài liệu EN về Seedance đã nhiều rồi. Cộng đồng VN lại thiếu.
+Repo này localize tất cả:
+- Văn hoá VN (áo dài, Hội An, Saigon)
+- Bảng giá VN (data từ 15+ agency)
+- Tuân thủ luật deepfake VN
 ```
 
 ```
@@ -197,41 +160,40 @@ Tiết kiệm 60-70% credits vs old T2V.
 ```
 
 ```
-[7/10] Free system prompts ready to paste:
+[7/10] System prompts free để paste:
 
 🤖 Claude Director V2
 🤖 ChatGPT Storyboard Designer
-🤖 Grok Viral Format Expert
 
-Set once → generate prompts automatically.
+Set một lần → generate prompts tự động.
 ```
 
 ```
-[8/10] Real case studies from VN agencies:
+[8/10] Real case studies từ VN:
 
 💄 Beauty: 1.5tr/clip ASMR
 🏠 Real estate: 15-30tr/walkthrough
 🎵 K-pop MV: 5-30tr per piece
 
-Full ROI breakdown for each.
+Full ROI breakdown cho mỗi case.
 ```
 
 ```
-[9/10] Built on shoulders of giants:
+[9/10] Repo focus 2 nền tảng video:
+🇨🇳 Jimeng (cần VPN, nhiều quota free)
+🇻🇳 0ai.vn (direct, không cần VPN, 4K)
 
-Inspired by @EvoLinkAI, @AtlasCloud, @MrLarus, @Saccc_c, @LudovicCreator, @deredleritt3r, and many more.
-
-Localized for VN market 🇻🇳
++ ChatGPT cho storyboard
++ Claude cho motion prompt
 ```
 
 ```
-[10/10] ⭐ Star: github.com/YOUR_USERNAME/awesome-seedance-vn
-💬 Discord: [your link]
-📺 YouTube: [your link]
+[10/10] ⭐ Star: github.com/NhatETH/awesome-seedance-vn
+💬 Cộng đồng Zalo: zalo.me/g/caqqva644
 
 PRs welcome. Bilingual contributions appreciated.
 
-Let's build the VN AI video community together 🚀
+Cùng build cộng đồng VN AI video 🚀
 ```
 
 ---
@@ -239,7 +201,7 @@ Let's build the VN AI video community together 🚀
 ## ⚠️ Common Mistakes to Avoid
 
 ### 1. Push tất cả files một lượt
-**Đúng:** Test internal links trước (use `markdown-link-check` action)
+**Đúng:** Test internal links trước
 
 ### 2. Promote quá hung hăng day 1
 **Đúng:** Soft launch → friends → feedback → polish → bigger launch tuần 2
@@ -248,10 +210,7 @@ Let's build the VN AI video community together 🚀
 **Đúng:** Mỗi PR phải có entry CHANGELOG (or update it batch-style cuối tuần)
 
 ### 4. Quên add .gitignore
-**Đúng:** Đã có rồi! Check nó cover các sensitive files (internal-launch-playbook.md)
-
-### 5. Sử dụng tên/handle giống hệt 1 creator nổi tiếng
-**Đúng:** Differentiate. Ví dụ `@SeedanceVN` thay vì `@Seedance` (đã có).
+**Đúng:** Đã có rồi! Check nó cover các sensitive files
 
 ---
 
@@ -260,15 +219,13 @@ Let's build the VN AI video community together 🚀
 Sau khi có 200-500 stars (Tuần 4-8):
 
 ### Free → Premium ladder
-1. **Free:** Repo + Discord + basic guides
-2. **Tier 1 (99K/tháng):** Member-only Discord channel + early access
-3. **Tier 2 (499K/lần):** Pro Pack course (20 advanced prompts + 5 case studies)
+1. **Free:** Repo + Zalo community + basic guides
+2. **Tier 1 (99K/tháng):** Member-only tier + early access
+3. **Tier 2 (499K/lần):** Pro Pack course (advanced prompts + case studies)
 4. **Tier 3 (1.5tr/giờ):** 1-on-1 consulting
 
 ### Affiliate revenue
 - 0ai.vn affiliate (5-10%)
-- Higgsfield affiliate (program TBD)
-- Cyberbara affiliate
 
 ### Sponsorship
 - AI tool companies pay for "Featured in resources" mention
@@ -281,28 +238,16 @@ Sau khi có 200-500 stars (Tuần 4-8):
 
 ---
 
-## 📞 Need Help?
-
-Khi gặp vấn đề:
-1. Search Stack Overflow / GitHub docs trước
-2. Ask in `#help` Discord channel (after setup)
-3. DM repo maintainer
-
----
-
 ## ✅ Final Checklist
 
 Trước khi go-live:
 
-- [ ] All `[YOUR_USERNAME]` replaced
-- [ ] All `[your_handle]` replaced
-- [ ] All `[your-domain.com]` replaced
 - [ ] Repository pushed to GitHub
 - [ ] About section filled (description, topics, website)
 - [ ] At least 30 prompts in repo
 - [ ] At least 5 guides in resources/
-- [ ] Discord server created + invite link in README
-- [ ] X account created
+- [ ] Cộng đồng Zalo link hoạt động
+- [ ] X account [@0ailab](https://x.com/0ailab) sẵn sàng
 - [ ] Launch tweet thread drafted
 - [ ] First 10 friends notified
 - [ ] [Launch Playbook](community/internal-launch-playbook.md) bookmarked

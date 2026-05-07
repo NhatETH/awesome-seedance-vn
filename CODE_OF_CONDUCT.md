@@ -44,9 +44,8 @@ Maintainers có trách nhiệm:
 ### 📩 Báo cáo vi phạm
 
 Báo cáo qua:
-- Email: conduct@your-domain.com
-- DM trên Discord: @maintainer
-- DM trên X: @your_handle
+- DM trên X: [@0ailab](https://x.com/0ailab)
+- Tin nhắn riêng trong cộng đồng Zalo: [Tham gia](https://zalo.me/g/caqqva644)
 
 Mọi báo cáo được xử lý confidential. Thời gian phản hồi: 48 giờ.
 
@@ -100,9 +99,8 @@ Maintainers are responsible for:
 ### 📩 Reporting
 
 Report via:
-- Email: conduct@your-domain.com
-- Discord DM: @maintainer
-- X DM: @your_handle
+- X DM: [@0ailab](https://x.com/0ailab)
+- Private message on Zalo community: [Join](https://zalo.me/g/caqqva644)
 
 Reports handled confidentially. Response time: 48 hours.
 

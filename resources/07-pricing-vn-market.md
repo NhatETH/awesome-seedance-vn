@@ -226,7 +226,7 @@
 
 ## 📞 Support
 
-Need help with pricing strategy? Join [Discord #pricing-strategy](#) channel.
+Need help with pricing strategy? Tham gia [cộng đồng Zalo](https://zalo.me/g/caqqva644) để discuss với community.
 
 ---
 

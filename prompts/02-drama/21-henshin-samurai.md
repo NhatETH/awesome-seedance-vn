@@ -42,7 +42,7 @@ Cinematic dramatic lighting, golden hour with magical glow effect. Anamorphic le
 
 | Setting | Value |
 |---------|-------|
-| Platform | Higgsfield (fastest) hoặc 0ai.vn |
+| Platform | 0ai.vn (VN direct) hoặc Jimeng (cần VPN) |
 | Aspect Ratio | 9:16 vertical |
 | Resolution | 480p Fast → test 2-3 versions → 1080p Standard final |
 | FPS | 24 |
@@ -163,7 +163,7 @@ Use 4-step iteration loop:
 
 - [4-Step Iteration Loop](../../workflows/05-iteration-loop.md)
 - [Henshin Case Study](../../case-studies/01-henshin-transformation/)
-- [Cyberbara Platform](../../resources/06-platforms-comparison.md) — for real face support
+- [Platforms Comparison](../../resources/06-platforms-comparison.md)
 
 ---
 

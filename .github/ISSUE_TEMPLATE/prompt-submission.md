@@ -38,7 +38,7 @@ Example: "Aff son môi MAC ruby red — beauty TVC 15s"
 | Aspect Ratio | (e.g., 9:16 / 16:9 / 1:1) |
 | Duration | (e.g., 8s) |
 | Difficulty | Beginner / Intermediate / Advanced |
-| Recommended Platform | Higgsfield / 0ai.vn / Jimeng |
+| Recommended Platform | 0ai.vn / Jimeng |
 
 ---
 

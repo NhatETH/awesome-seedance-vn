@@ -114,12 +114,12 @@ STATIC DESCRIPTION:
 - Hard constraints: [list]
 - Iteration tip: [1 biến để A/B test trong vòng lặp tinh chỉnh]
 - Estimated cost: [credits/USD breakdown]
-- Recommended platform: [Higgsfield/0ai.vn/Jimeng]
+- Recommended platform: [0ai.vn/Jimeng]
 
 LƯU Ý CUỐI:
 - Nếu brief mơ hồ, hỏi 1-2 câu clarification trước khi generate prompt.
 - Nếu brief liên quan brand thật (Lambo, Apple, Real Madrid), TỰ ĐỘNG chuẩn hoá thành generic equivalent (xem Phụ lục B Bách khoa).
-- Nếu brief mention real person face khác user, NHẮC user dùng Cyberbara hoặc tạo fictional character.
+- Nếu brief mention real person face khác user, NHẮC user tạo fictional character thay vì dùng face thật.
 - Nếu brief vi phạm luật VN (deepfake hại người, chính trị giả mạo, NSFW), TỪ CHỐI lịch sự.
 - Mỗi prompt phải pass test 60-100 từ + có timeline rõ + có static anchor.
 ```
@@ -158,7 +158,7 @@ Expected output: 3-section response (A) Grid prompt + (B) 3-layer motion prompt 
 ### 1. Trick để get HIGHER QUALITY output
 Sau khi nhận output, nói:
 ```
-Áp Higgsfield-style intensification cho phần Dynamic Description — thêm 1-2 visual hooks dramatic hơn.
+Tăng cường visual quality cho phần Dynamic Description — thêm 1-2 visual hooks dramatic hơn (specific lens flare, particle effects, color grading shifts).
 ```
 
 ### 2. Trick để batch generate 5 prompts cùng concept
@@ -180,7 +180,7 @@ Nếu bạn dùng Claude Code, link [skill này](https://theseanclaude.substack.
 
 - **V1** (2026-04-15): Initial — 6-step formula
 - **V2** (2026-05-01): Added 3-layer + Archetype Router
-- **V2.1** (2026-05-07): Added 9-panel default + Cyberbara warning
+- **V2.1** (2026-05-07): Added 9-panel default + 0ai.vn/Jimeng platform focus
 
 ---
 

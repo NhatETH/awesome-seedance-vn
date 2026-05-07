@@ -14,7 +14,7 @@ Cảm ơn bạn quan tâm đóng góp! Repo này phát triển nhờ cộng đ�
 Yêu cầu:
 - Đã test thành công ít nhất 2 lần trên Seedance 2.0
 - Kèm video proof (link YouTube/X/TikTok hoặc file MP4 < 10MB)
-- Format theo [template prompt](.github/prompt-template.md)
+- Format theo template prompt
 - Tiếng Anh BẮT BUỘC, kèm tiếng Việt nếu có
 
 #### ✅ Case Study
@@ -60,7 +60,7 @@ git checkout -b feature/your-feature-name
 ```
 
 #### Bước 3 — Làm changes
-- Theo template trong từng folder (xem `prompts/01-affiliate/_template.md`)
+- Theo template trong từng folder
 - Test code/prompt trước khi commit
 - Update CHANGELOG.md nếu là feature lớn
 
@@ -103,15 +103,13 @@ Dùng prefix sau cho commit messages:
 
 Top contributors mỗi tháng sẽ được:
 - 🌟 Featured trên README chính
-- 🎁 Free 1 tháng truy cập khoá học premium (nếu có)
-- 📢 Mention trên Discord/X channel
-- 🏆 Tag "Top Contributor" badge trên Discord
+- 📢 Mention trên cộng đồng Zalo + X channel
 
 ### 💬 Cần giúp đỡ?
 
 - Mở Discussion trên GitHub
-- Hỏi trên Discord channel `#contributors`
-- Email: your-email@domain.com
+- Hỏi trên cộng đồng Zalo: [Tham gia](https://zalo.me/g/caqqva644)
+- DM trên X: [@0ailab](https://x.com/0ailab)
 
 ---
 
@@ -125,7 +123,7 @@ Thanks for your interest in contributing! This repo grows through community effo
 Requirements:
 - Tested at least 2 times on Seedance 2.0
 - Include video proof (YouTube/X/TikTok link or MP4 < 10MB)
-- Follow the [prompt template](.github/prompt-template.md)
+- Follow the prompt template
 - English required, Vietnamese optional but appreciated
 
 #### ✅ Case Studies
@@ -195,15 +193,13 @@ git push origin feature/your-feature
 
 Top monthly contributors get:
 - 🌟 Featured on main README
-- 🎁 Free 1-month premium course access (if available)
-- 📢 Mention on Discord/X
-- 🏆 "Top Contributor" badge on Discord
+- 📢 Mention on Zalo community + X channel
 
 ### 💬 Need Help?
 
 - Open a GitHub Discussion
-- Ask in `#contributors` Discord channel
-- Email: your-email@domain.com
+- Ask on Zalo community: [Join](https://zalo.me/g/caqqva644)
+- DM on X: [@0ailab](https://x.com/0ailab)
 
 ---
 

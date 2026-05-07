@@ -170,7 +170,7 @@ ULTRA-CONSISTENT character identity — face, hair, beige coat unchanged. Hà N�
 ### 🟦 STEP 4 — Generate in Seedance
 
 **Time:** 5-15 phút
-**Platform:** 0ai.vn (cheap), Higgsfield (fast), or Jimeng (newest features)
+**Platform:** 0ai.vn (rẻ, không cần VPN, support 4K) hoặc Jimeng (cần VPN, nhiều quota free)
 
 #### Settings
 - Upload grid image as reference (`@subject1`)

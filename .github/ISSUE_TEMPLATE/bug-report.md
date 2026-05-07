@@ -51,7 +51,7 @@ assignees: ''
 
 ## 💻 Environment (if relevant)
 
-- Platform: (Jimeng / 0ai.vn / Higgsfield / ...)
+- Platform: (Jimeng / 0ai.vn / khác)
 - Browser: 
 - OS: 
 - Date encountered: 

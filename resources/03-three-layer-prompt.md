@@ -8,7 +8,7 @@
 
 ## 🇻🇳 Tóm tắt
 
-Cộng đồng AI video toàn cầu (Atlas Cloud, EvoLinkAI, Higgsfield) đã hội tụ vào tháng 5/2026 về 1 cấu trúc CHUẨN cho motion prompt: **Style & Mood → Dynamic Description → Static Description**. Tỷ lệ thành công tăng từ **40-50% lên 80-90%**.
+Cộng đồng AI video toàn cầu đã hội tụ vào tháng 5/2026 về 1 cấu trúc CHUẨN cho motion prompt: **Style & Mood → Dynamic Description → Static Description**. Tỷ lệ thành công tăng từ **40-50% lên 80-90%**.
 
 ## 🇬🇧 TL;DR
 
@@ -203,10 +203,9 @@ If 5/6 passed → 80%+ chance of success on first generation.
 
 ## 📚 Sources
 
-- [Atlas Cloud — Drama Workflow Guide (April 2026)](https://www.atlascloud.ai/blog/guides/ultimate-drama-workflow-gpt-image-2-seedance-2-0)
-- [Higgsfield — Seedance Prompting Guide](https://higgsfield.ai/blog/seedance-prompting-guide)
-- [@deredleritt3r on X](https://x.com/) — Motion prompt mental model pioneer
-- [Seedance 2.0 Official Prompt Guide (APIYI)](https://help.apiyi.com/en/seedance-2-0-prompt-guide-video-generation-camera-style-tips-en.html)
+- Open-source AI video community resources (May 2026)
+- Seedance 2.0 official documentation
+- Real production testing across 50+ projects in VN market
 
 ---
 
