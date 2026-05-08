@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 320" width="1280" height="320">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D1117"/>
+      <stop offset="50%" stop-color="#161B22"/>
+      <stop offset="100%" stop-color="#0D1117"/>
+    </linearGradient>
+
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFB000"/>
+      <stop offset="100%" stop-color="#F85149"/>
+    </linearGradient>
+
+    <linearGradient id="filmstrip" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFB000" stop-opacity="0.0"/>
+      <stop offset="50%" stop-color="#FFB000" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#FFB000" stop-opacity="0.0"/>
+    </linearGradient>
+
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#21262D" stroke-width="0.5"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1280" height="320" fill="url(#bg)"/>
+  <rect width="1280" height="320" fill="url(#grid)" opacity="0.5"/>
+
+  <!-- Top accent bar -->
+  <rect x="0" y="0" width="1280" height="3" fill="url(#accent)"/>
+
+  <!-- Film strip decoration top -->
+  <g opacity="0.3">
+    <rect x="0" y="20" width="1280" height="2" fill="url(#filmstrip)"/>
+    <g fill="#30363D">
+      <rect x="40" y="14" width="14" height="14" rx="2"/>
+      <rect x="80" y="14" width="14" height="14" rx="2"/>
+      <rect x="120" y="14" width="14" height="14" rx="2"/>
+      <rect x="160" y="14" width="14" height="14" rx="2"/>
+      <rect x="1100" y="14" width="14" height="14" rx="2"/>
+      <rect x="1140" y="14" width="14" height="14" rx="2"/>
+      <rect x="1180" y="14" width="14" height="14" rx="2"/>
+      <rect x="1220" y="14" width="14" height="14" rx="2"/>
+    </g>
+  </g>
+
+  <!-- Film strip decoration bottom -->
+  <g opacity="0.3">
+    <rect x="0" y="298" width="1280" height="2" fill="url(#filmstrip)"/>
+    <g fill="#30363D">
+      <rect x="40" y="292" width="14" height="14" rx="2"/>
+      <rect x="80" y="292" width="14" height="14" rx="2"/>
+      <rect x="120" y="292" width="14" height="14" rx="2"/>
+      <rect x="160" y="292" width="14" height="14" rx="2"/>
+      <rect x="1100" y="292" width="14" height="14" rx="2"/>
+      <rect x="1140" y="292" width="14" height="14" rx="2"/>
+      <rect x="1180" y="292" width="14" height="14" rx="2"/>
+      <rect x="1220" y="292" width="14" height="14" rx="2"/>
+    </g>
+  </g>
+
+  <!-- Corner brackets - cinema framing -->
+  <g stroke="#FFB000" stroke-width="2" fill="none" opacity="0.7">
+    <!-- Top left -->
+    <path d="M 60 60 L 60 80 M 60 60 L 80 60"/>
+    <!-- Top right -->
+    <path d="M 1220 60 L 1220 80 M 1220 60 L 1200 60"/>
+    <!-- Bottom left -->
+    <path d="M 60 260 L 60 240 M 60 260 L 80 260"/>
+    <!-- Bottom right -->
+    <path d="M 1220 260 L 1220 240 M 1220 260 L 1200 260"/>
+  </g>
+
+  <!-- Center content -->
+  <g text-anchor="middle">
+    <!-- Vietnamese flag accent -->
+    <g transform="translate(640, 95)">
+      <rect x="-20" y="-12" width="40" height="24" fill="#DA251D" rx="2"/>
+      <polygon points="0,-7 1.8,-2 7,-2 2.8,1 4.5,6 0,3 -4.5,6 -2.8,1 -7,-2 -1.8,-2"
+               fill="#FFFF00"/>
+    </g>
+
+    <!-- Main title -->
+    <text x="640" y="155" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', system-ui, sans-serif"
+          font-size="48" font-weight="900" fill="#F0F6FC" letter-spacing="-1">
+      AWESOME SEEDANCE
+    </text>
+
+    <!-- Subtitle row 1 -->
+    <text x="640" y="195" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', system-ui, sans-serif"
+          font-size="22" font-weight="600" fill="#FFB000" letter-spacing="3">
+      VIETNAMESE EDITION · 2026
+    </text>
+
+    <!-- Subtitle row 2 -->
+    <text x="640" y="230" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', system-ui, sans-serif"
+          font-size="16" font-weight="400" fill="#8B949E" letter-spacing="0.5">
+      Filmmaking-Grade AI Video · Multi-Engine Workflows · Production Studies
+    </text>
+
+    <!-- Tags row -->
+    <g transform="translate(640, 268)" font-family="-apple-system, system-ui, sans-serif"
+       font-size="11" font-weight="600" fill="#8B949E" letter-spacing="2">
+      <text x="0" y="0">SEEDANCE 2.0  ·  GPT IMAGE 2  ·  CLAUDE  ·  NANO BANANA  ·  FLUX</text>
+    </g>
+  </g>
+
+  <!-- Bottom accent bar -->
+  <rect x="0" y="317" width="1280" height="3" fill="url(#accent)"/>
+</svg>
