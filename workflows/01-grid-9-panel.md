@@ -262,7 +262,7 @@ Internal benchmarks across 50+ test runs:
 ## 🚀 Next Steps
 
 After mastering 9-panel:
-- Try [16-Panel Dance Grid](02-grid-16-panel.md) for K-pop MV
+- Try [16-Panel Dance Grid](02-grid-16-panel/01-dance-mv.md) for K-pop MV
 - Try [Character Bible](03-character-bible.md) for series with same character
 - Try [Iteration Loop](05-iteration-loop.md) for production-tier quality
 

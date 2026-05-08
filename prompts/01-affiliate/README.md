@@ -8,20 +8,22 @@
 
 ## 📋 List
 
-| # | Title | Product Niche | Duration |
-|---|-------|---------------|----------|
-| 1 | [Aff son môi](01-aff-son-moi.md) | Beauty | 15s |
-| 2 | [Aff váy maxi](02-aff-vay-maxi.md) | Fashion | 8s |
-| 3 | [Aff điện thoại](03-aff-dien-thoai.md) | Tech | 10s |
-| 4 | [Aff serum dưỡng da](04-aff-serum.md) | Skincare | 12s |
-| 5 | [Aff giày sneaker](05-aff-sneaker.md) | Fashion | 8s |
-| 6 | [Aff túi xách](06-aff-tui-xach.md) | Luxury | 10s |
-| 7 | [Aff đồng hồ nam](07-aff-dong-ho.md) | Watches | 8s |
-| 8 | [Aff nến thơm](08-aff-nen-thom.md) | Lifestyle | 8s |
-| 9 | [Aff sách self-help](09-aff-sach.md) | Books | 10s |
-| 10 | [Aff cafe specialty](10-aff-cafe.md) | F&B | 8s |
-| 22 | ⭐ [Mercury Sphere Loop](22-mercury-loop.md) | **Trending Loop** | 6s |
-| 24 | ⭐ [ASMR Skincare](24-asmr-skincare.md) | **Trending Macro** | 12s |
+| # | Title | Product Niche | Duration | Status |
+|---|-------|---------------|:--------:|:------:|
+| 22 | ⭐ [Mercury Sphere Loop](22-mercury-loop.md) | **Trending Loop** | 6s | ✅ |
+| 24 | ⭐ [ASMR Skincare](24-asmr-skincare.md) | **Trending Macro** | 12s | ✅ |
+| 1 | Aff son môi | Beauty | 15s | 🔜 Coming soon |
+| 2 | Aff váy maxi | Fashion | 8s | 🔜 Coming soon |
+| 3 | Aff điện thoại | Tech | 10s | 🔜 Coming soon |
+| 4 | Aff serum dưỡng da | Skincare | 12s | 🔜 Coming soon |
+| 5 | Aff giày sneaker | Fashion | 8s | 🔜 Coming soon |
+| 6 | Aff túi xách | Luxury | 10s | 🔜 Coming soon |
+| 7 | Aff đồng hồ nam | Watches | 8s | 🔜 Coming soon |
+| 8 | Aff nến thơm | Lifestyle | 8s | 🔜 Coming soon |
+| 9 | Aff sách self-help | Books | 10s | 🔜 Coming soon |
+| 10 | Aff cafe specialty | F&B | 8s | 🔜 Coming soon |
+
+> **Want a specific affiliate prompt?** Open an issue or request in [Zalo community](https://zalo.me/g/caqqva644).
 
 ---
 
